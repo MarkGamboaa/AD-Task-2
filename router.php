@@ -9,4 +9,19 @@ if (php_sapi_name() === 'cli-server') {
     }
 }
 
-require BASE_PATH . '/index.php';
+
+
+require_once 'bootstrap.php';
+
+$page = $_GET['page'] ?? 'home';
+
+switch ($page) {
+    case 'menu':
+        require_once 'pages/menu/index.php';
+        break;
+
+    case 'home':
+    default:
+        require_once 'index.php';
+        break;
+}
