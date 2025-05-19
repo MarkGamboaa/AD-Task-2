@@ -103,7 +103,7 @@ AD-Task-2
 │  ├─ css
 │  │  └─ style.css
 │  ├─ img
-│  │  └─ nyebe_white.png
+│  │  └─ php_logo.png
 │  └─ js
 ├─ components
 │  └─templates
