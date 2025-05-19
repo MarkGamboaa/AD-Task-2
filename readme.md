@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/MarkGamboaa">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/php_logo.png" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">(PHP) Pinoy Hot Plates</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A simple Filipino restaurant website made with PHP
 </div>
 
 <br />
@@ -61,39 +61,25 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+PHP (Pinoy Hot Plates) is a simple PHP-based website designed to showcase classic Filipino meals throughout the day. It includes dedicated pages for Breakfast, Lunch, and Dinner, allowing users to browse delicious Pinoy dishes in an organized and visually appealing format.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Simple and intuitive navigation layout
+- Organized file structure for better readability and scalability
 
 ### Technology
 
 <!-- TODO: List of Technology Used -->
+
 #### Language
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### Deployment
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-## Rules, Practices and Principles
 
 <!-- Do not Change this -->
 
@@ -103,59 +89,74 @@ Description of the project in details.
 4. Add `.util` to the `.php` files if they are utility codes; example: `account.util.php`.
 5. Place Files in their respective folders.
 6. Different file naming Cases
-   | Naming Case | Type of code         | Example                           |
+   | Naming Case | Type of code | Example |
    | ----------- | -------------------- | --------------------------------- |
-   | Pascal      | Utility              | Accoun.util.php                   |
-   | Camel       | Components and Pages | index.php or footer.component.php |
-8. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-9. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
-10. File Structure to follow below.
+   | Pascal | Utility | Accoun.util.php |
+   | Camel | Components and Pages | index.php or footer.component.php |
+7. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+8. Use proper label in your github commits: `feat`, `fix`, `refactor` and `docs`
+9. File Structure to follow below.
 
 ```
-AD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ name.css
-|   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ name.js
-└─ components
-|   └─ name.component.php
-|   └─ templates
-|      └─ name.component.php
-└─ handlers
-|   └─ name.handler.php
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ name.css
-|     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
-|     └─ index.php
-└─ utils
-|   └─ name.utils.php
-└─ vendor
-└─ .gitignore
-└─ bootstrap.php
-└─ composer.json
-└─ composer.lock
-└─ index.php
-└─ readme.md
+AD-Task-2
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  ├─ img
+│  │  └─ nyebe_white.png
+│  └─ js
+├─ components
+│  └─templates
+│     ├─ header.component.php
+│     └─ footer.component.php
+├─ handlers
+│  └─ menu.handler.php
+├─ pages
+│  └─ menu
+│     ├─ assets
+│     │  ├─ css
+│     │  ├─ img
+│     │  │  ├─ adobo.jpg
+│     │  │  ├─ bistek.jpg
+│     │  │  ├─ bulalo.jpg
+│     │  │  ├─ ginataang.jpg
+│     │  │  ├─ halohalo.jpg
+│     │  │  ├─ karekare.jpg
+│     │  │  ├─ laing.jpg
+│     │  │  ├─ lechon.jpg
+│     │  │  ├─ liempo.jpg
+│     │  │  ├─ pancit.jpg
+│     │  │  ├─ sinigang.jpg
+│     │  │  └─ tocino.jpg
+│     │  └─ js
+│     └─ index.php
+├─ utils
+│  └─ displayMenu.utils.php
+├─ vendor
+├─ .gitignore
+├─ bootstrap.php
+├─ composer.json
+├─ composer.lock
+├─ Dockerfile
+├─ docker-compose.yml
+├─ index.php
+├─ README.md
+├─ README.Docker.md
 └─ router.php
 ```
+
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 
 ## Resources
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+### References and Resources
+
+| Title          | Purpose                                                                                  | Link                                                   |
+| -------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| W3Schools      | Used for basic HTML, CSS, and PHP syntax references and examples.                        | [w3schools.com](https://w3schools.com)                 |
+| PHP Manual     | Official documentation for PHP functions, arrays, and control structures.                | [php.net](https://www.php.net)                         |
+| MDN Web Docs   | Reference for HTML and CSS standards and browser compatibility.                          | [developer.mozilla.org](https://developer.mozilla.org) |
+| CSS Tricks     | Helped with layout styling and CSS tips.                                                 | [css-tricks.com](https://css-tricks.com)               |
+| Stack Overflow | Used for troubleshooting errors and finding PHP-based solutions shared by the community. | [stackoverflow.com](https://stackoverflow.com)         |
