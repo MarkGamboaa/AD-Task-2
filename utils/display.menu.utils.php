@@ -4,7 +4,7 @@ if (!function_exists('displayMenu')) {
     {
         foreach ($items as $dish) {
             echo "<div class='menu-item'>";
-            echo "<img src='pages/menu/assets/img/{$dish['img']}' alt='{$dish['name']}' class='menu-img'>";
+            echo "<img src='/pages/menu/assets/img/{$dish['img']}' alt='{$dish['name']}' class='menu-img'>";
             echo "<h3>{$dish['name']}</h3>";
             echo "<p>{$dish['desc']}</p>";
             echo "<strong>₱{$dish['price']}</strong>";
