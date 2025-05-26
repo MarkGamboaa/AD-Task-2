@@ -23,7 +23,7 @@
 
 ![](https://visit-counter.vercel.app/counter.png?page=MarkGamboaa/AD-Task-2)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/ecc143bc-1d49-4389-8363-3bdffc20725e/project/4810b8c6-97bf-4d3d-8191-9a4f0cc5b1f0.svg)](https://wakatime.com/badge/user/ecc143bc-1d49-4389-8363-3bdffc20725e/project/4810b8c6-97bf-4d3d-8191-9a4f0cc5b1f0)
 
 ---
 
