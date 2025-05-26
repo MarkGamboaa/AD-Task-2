@@ -21,7 +21,7 @@
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=MarkGamboaa/AD-Task-2)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -98,50 +98,39 @@ PHP (Pinoy Hot Plates) is a simple PHP-based website designed to showcase classi
 9. File Structure to follow below.
 
 ```
-AD-Task-2
-├─ assets
-│  ├─ css
-│  │  └─ style.css
-│  ├─ img
-│  │  └─ php_logo.png
-│  └─ js
-├─ components
-│  └─templates
-│     ├─ header.component.php
-│     └─ footer.component.php
-├─ handlers
-│  └─ menu.handler.php
-├─ pages
-│  └─ menu
-│     ├─ assets
-│     │  ├─ css
-│     │  ├─ img
-│     │  │  ├─ adobo.jpg
-│     │  │  ├─ bistek.jpg
-│     │  │  ├─ bulalo.jpg
-│     │  │  ├─ ginataang.jpg
-│     │  │  ├─ halohalo.jpg
-│     │  │  ├─ karekare.jpg
-│     │  │  ├─ laing.jpg
-│     │  │  ├─ lechon.jpg
-│     │  │  ├─ liempo.jpg
-│     │  │  ├─ pancit.jpg
-│     │  │  ├─ sinigang.jpg
-│     │  │  └─ tocino.jpg
-│     │  └─ js
-│     └─ index.php
-├─ utils
-│  └─ displayMenu.utils.php
-├─ vendor
-├─ .gitignore
-├─ bootstrap.php
-├─ composer.json
-├─ composer.lock
-├─ Dockerfile
-├─ docker-compose.yml
-├─ index.php
-├─ README.md
-├─ README.Docker.md
+AD-ProjectName
+└─ assets
+|   └─ css
+|   |   └─ name.css
+|   └─ img
+|   |   └─ name.jpeg/.jpg/.webp/.png
+|   └─ js
+|       └─ name.js
+└─ components
+|   └─ name.component.php
+|   └─ templates
+|      └─ name.component.php
+└─ handlers
+|   └─ name.handler.php
+└─ pages
+|  └─ pageName
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ name.css
+|     |  └─ img
+|     |  |  └─ name.jpeg/.jpg/.webp/.png
+|     |  └─ js
+|     |     └─ name.js
+|     └─ index.php
+└─ utils
+|   └─ name.utils.php
+└─ vendor
+└─ .gitignore
+└─ bootstrap.php
+└─ composer.json
+└─ composer.lock
+└─ index.php
+└─ readme.md
 └─ router.php
 ```
 
