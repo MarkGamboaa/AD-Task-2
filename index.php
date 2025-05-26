@@ -1,7 +1,7 @@
 <?php
 require BASE_PATH . '/vendor/autoload.php';
-require BASE_PATH . '/utils/displayMenu.utils.php';
-require_once BASE_PATH . '/handlers/menu.handler.php';
+require BASE_PATH . '/utils/display.menu.utils.php';
+require_once BASE_PATH . '/handlers/menu.handlers.php';
 require_once BASE_PATH . '/components/templates/header.component.php';
 ?>
 
@@ -9,7 +9,7 @@ require_once BASE_PATH . '/components/templates/header.component.php';
     <div class="hero-content">
         <h1>Welcome to (PHP) Pinoy Hot Plates</h1>
         <p>Discover mouthwatering dishes made with passion and served with love. Come hungry, leave happy!</p>
-        <a href="?page=menu" class="btn">View Our Menu</a>
+        <a href="/pages/menu/index.php" class="btn">View Our Menu</a>
     </div>
 </section>
 
